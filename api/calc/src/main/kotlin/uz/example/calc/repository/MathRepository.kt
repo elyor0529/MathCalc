@@ -9,7 +9,9 @@ class MathRepository {
 
     private val expressionParser = ExpressionParser()
 
-    fun execute(rule: MathRule): Double {
+    fun evaluate(rule: MathRule): Double {
+
+        expressionParser.enableLog(true)
 
         return expressionParser.evaluate(rule.formula)
     }
