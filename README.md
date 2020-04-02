@@ -1,2 +1,1 @@
-# MathCalc
-Kotlin Math Calc
+# Mathematical Expression Evaluator   
